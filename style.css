@@ -579,6 +579,9 @@ header.sticky{
   .about-img{
     text-align: left;
   }
+  .help-text{
+    font-size: 14px;
+  }
 
 }
 @media(max-width:411px){
@@ -593,6 +596,11 @@ header.sticky{
   .about-text p{
     max-width: 100%;
   }
+
+  .help-container{
+    width: 200px; /* Puedes ajustar este valor según tus necesidades */
+    height: 50px;
+  }
  
 }
 
@@ -605,10 +613,7 @@ header.sticky{
       height: auto; /* Permite que la altura se ajuste automáticamente */
     }
     
-    .help-text{
-      display: none;
-    }
-   
+    
     .about-text{
       text-align: center;
     }
@@ -650,7 +655,7 @@ header.sticky{
 
 
 .help-text {
-  margin-right: 15px; /* Ajusta según tu preferencia */
+  margin-right: 10px; /* Ajusta según tu preferencia */
   color: #FFF; /* Color del texto */
 }
 
@@ -718,9 +723,7 @@ header.sticky{
   box-shadow: #40798c 0px 1px 25px;
 }
 
-.help-text {
-  color: #FFF; /* Color del texto */
-}
+
 
 @keyframes pulse {
   0% {

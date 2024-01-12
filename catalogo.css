@@ -605,13 +605,16 @@ header.sticky{
     height: auto; /* Permite que la altura se ajuste automáticamente */
   }
   
-  .help-text{
-    display: none;
-  }
+ 
  
   .about-text{
     text-align: center;
   }
+  .help-container{
+    width: 220px; /* Puedes ajustar este valor según tus necesidades */
+    height: 80px;
+  }
+ 
 
 
 }
@@ -624,9 +627,7 @@ header.sticky{
       height: auto; /* Permite que la altura se ajuste automáticamente */
     }
     
-    .help-text{
-      display: none;
-    }
+    
    
     .about-text{
       text-align: center;
