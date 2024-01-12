@@ -30,7 +30,8 @@
         <div class="nav-icons">
             <a href="#"><i class="bx bx-search"></i></a>
           <!-- Agrega un ID al enlace del carrito -->
-            <a href="#" id="cart-icon"><i class="bx bx-cart"></i></a>
+          <a href="https://wa.me/958784348" id="cart-icon" target="_blank"><i class="bx bxl-whatsapp"></i></a>
+
 
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
@@ -90,15 +91,20 @@
         <img src="logo.png">
     </div>  
     <div class="about-text">
-        <h2>Somo una empresa donde <br>afafafaffafaa</h2>
+        <h2>Somos una empresa donde <br>afafafaffafaa</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet incidunt, sit numquam, libero molestias tenetur recusandae unde perferendis consequuntur, neque minus dolorem earum doloribus nostrum mollitia. Ex neque hic omnis.
         </p>
-        <a href="#" class="btn">Explore story<i class="bx bxs-right-arrow"></i></a>
+        <a class="btn" onclick="showCard()">Explore story<i class="bx bxs-right-arrow"></i></a>
+
     </div>
-
-
-
-
+   
+    <div class="card-container" id="card-container">
+        <div class="card" onclick="event.stopPropagation();">
+            <span class="close-btn" onclick="hideCard()">&times;</span>
+            <h3>Título de la Tarjeta</h3>
+            <p>Contenido de la tarjeta aquí...</p>
+        </div>
+    </div>
 
 </section>
 

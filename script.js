@@ -110,3 +110,19 @@ function openWhatsApp() {
 }
 
 
+function showCard() {
+  document.getElementById("card-container").style.display = "flex";
+}
+
+function hideCard() {
+  document.getElementById("card-container").style.display = "none";
+}
+
+// Añadido para cerrar la tarjeta al hacer clic fuera de ella
+// Añadido para cerrar la tarjeta al hacer clic fuera de ella
+document.addEventListener("click", function (event) {
+  const cardContainer = document.getElementById("card-container");
+  if (!event.target.closest(".about") && cardContainer.style.display === "flex") {
+    hideCard();
+  }
+});
