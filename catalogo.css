@@ -1,5 +1,5 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
 * {
     margin: 0 ;
     padding: 0;
@@ -272,7 +272,9 @@ header.sticky{
 
 /* Our shop */
 .middle-text{
+
   text-align: center;
+  margin-top:50px;
 
 }
 .middle-text h4{
@@ -594,7 +596,25 @@ header.sticky{
   }
  
 }
+@media(max-width:441px){
+  
+    
+  .about-img img {
+    width: auto; /* Hace que la imagen ocupe el ancho completo del contenedor */
+    max-width: 100%; /* Establece el ancho máximo de la imagen según tu preferencia */
+    height: auto; /* Permite que la altura se ajuste automáticamente */
+  }
+  
+  .help-text{
+    display: none;
+  }
+ 
+  .about-text{
+    text-align: center;
+  }
 
+
+}
 @media(max-width:350px){
   
     
